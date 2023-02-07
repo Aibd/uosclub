@@ -26,6 +26,15 @@
     </div>
 </template>
 
+<script setup>
+    useHead({
+        title: 'uos club | merch',
+        meta: {
+            name:'description',content: 'uos club | merch'
+        }
+    })
+</script>
+
 <style scoped>
 .router-link-exact-active {
     color: #12b488;
